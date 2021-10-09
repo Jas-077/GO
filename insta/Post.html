@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Upload File</title>
+  </head>
+  <body>
+    <form
+      enctype="multipart/form-data"
+      action="/posts"
+      method="POST"
+    >
+     <label>Name</label> <input name="name" type="text" value="" /><br>
+      <label>Caption</label> <input name="cap" type="text" value="" /><br>
+      <label>Image-</label><br>
+      <input type="file" name="myFile" /><br>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
